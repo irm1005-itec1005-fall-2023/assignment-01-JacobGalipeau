@@ -41,10 +41,15 @@
   </head>
   <body>
     <header>
-    <h2>Ski in Canada</h2> 
+    <h2>Canadian skiing Mountains</h2> 
 
-    <p> Site title: Information on Canada's skiing life</p>
-
+    <p>Providing information on Canada's skiing life</p>
+      
+    <img
+    src="./skihill.jpeg"
+    alt="hill"
+    >
+      
     <h3>Site Guide</h3>
     <nav>
       <ul>
@@ -55,10 +60,6 @@
       </ul>
     </nav>
   
-    <img
-    src="./skihill.jpeg"
-    alt="hill"
-    >
     </header>
     
     <h1>Things to know when skiing in Canada</h1>
@@ -103,7 +104,26 @@
 <li>Mount Norquay, Banff</li>
 <li>Nakiska Ski Area, Kananaskis</li>
       </ul>
-
+<h2>We would love to know wich location, either presented above or not, is your favorite down below</h2>
+ <form action="/server-page-handling-from-data" method="post"> <h1>Favorite location in your opinion</h1>
+   
+    <ul> 
+      <li> 
+             <fieldset>
+      <legend>Your message</legend>
+     
+     <label
+     for="message">Message</label>
+     <textarea 
+     maxlength="12"
+     rows="10"
+     id="message"></textarea>
+     </fieldset>
+     </li>
+     <li><button type="submit">Submit</button></li>
+    </ul>
+   </form>
+    
     <dl>
    <dt> <strong>Frequently asked questions:</strong></dt>
     <dd>What's Canada's tallest ski hills?</dd> 
